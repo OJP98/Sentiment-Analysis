@@ -19,8 +19,6 @@ print([var for var in df])
 # %%
 clean_df = df[['brand', 'manufacturer', 'name', 'reviews.username',
                'reviews.didPurchase', 'reviews.doRecommend', 'reviews.rating', 'reviews.text']].copy()
-clean_df
-
 
 # %%
 clean_reviews = []
