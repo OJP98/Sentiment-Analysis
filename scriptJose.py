@@ -43,10 +43,6 @@ with open('./files/CleanData.csv', encoding="utf8") as read_obj:
 			
 		contador+=1
 
-		if(contador==500):
-			break
-
-
 
 
 for usuario in usuariosTotales:
